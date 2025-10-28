@@ -1,0 +1,7 @@
+{
+  "name": "havenly_ionic",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
