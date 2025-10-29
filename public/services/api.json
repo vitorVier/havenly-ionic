@@ -1,0 +1,264 @@
+{
+  "hotels": [
+    {
+      "id": "1",
+      "name": "Tivoli Mofarrej São Paulo",
+      "address": {
+        "street": "Alameda Santos",
+        "number": "1437",
+        "neighboorhood": "Jardim Paulista",
+        "city": "São Paulo",
+        "UF": "SP",
+        "country": "Brasil"
+      },
+      "location": { "lat": -23.0123, "lon": -43.1234 },
+      "amenities": ["Wifi", "Praia", "Piscina", "Garagem", "Terraço"],
+      "price": { "amount": 1200.00, "currency": "BRL" },
+      "images": [
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/575182806.jpg?k=6c48841e703049d03954e410e1df10ed4f4a2d449ba592ed087077843e1ebbaa&o=",
+        "https://cf.bstatic.com/xdata/images/hotel/max500/237487968.jpg?k=e77191c18275a894808e2b6ccd16fc1040d11d8ea2005ad279c4145c87993902&o=",
+        "https://cf.bstatic.com/xdata/images/hotel/max300/575180767.jpg?k=f3e32147846564b8f4d6b4788d423f31b2ab261cacf87e830492bd6910b06d67&o=",
+        "https://cf.bstatic.com/xdata/images/hotel/max500/594584177.jpg?k=ce18b0fff6624ce33416f4fc2e989c89c2a166babcf42acb81db4b8b4227d926&o=",
+        "https://cf.bstatic.com/xdata/images/hotel/max300/163424168.jpg?k=d8512bfbd2785155b27a43ed6c03b1829bc70ccefd5257b02c9b2b51e94ad06a&o="
+      ],
+      "availability": { "rooms": 5, "checkin": "2025-10-01", "checkout": "2025-10-02" },
+      "slogan": "Receba tratamento de celebridade com serviço de primeira classe em Tivoli Mofarrej São Paulo",
+      "description": "Localizado nos Jardins, um dos bairros mais nobres da capital paulista e a uma quadra da Avenida Paulista, o Tivoli Mofarrej São Paulo Hotel é a opção certa para aproveitar o melhor da cidade. Com todas as comodidades de um hotel 5 estrelas e a melhor vista da capital paulista, o hotel transforma a sua estadia em uma experiência única, seja para viajantes ou moradores de São Paulo que querem um tratamento especial no Anantara Spa ou mesmo no Seen Restaurant & Bar, que oferece uma vista privilegiada do belo horizonte de São Paulo, agitando as noites da cidade. Além disso, os quartos aconchegantes e a maior e mais nova suíte presidencial da América Latina, as excelentes salas de reuniões, a piscina ao ar livre e o restaurante Must fazem do Tivoli Mofarrej São Paulo o destino ideal para descobrir a cidade. O Tivoli Mofarrej São Paulo fica a 500 metros do Chopping Cidade São Paulo e a 2 km da badalada Rua Oscar Freire. Os shoppings Cidade Jardim e JK ficam a 6,5 ​​km. O Aeroporto de Congonhas fica a 7 km e o Aeroporto de Guarulhos fica a 24 km.",
+      "review": {"desc": "Excelente", "rating": "9.0"}
+    },
+    {
+      "id": "2",
+      "name": "Miramar By Windsor Copacabana",
+      "address": {
+        "street": "Av. Atlântica",
+        "number": "3668",
+        "neighboorhood": "Copacabana",
+        "city": "Rio de Janeiro",
+        "UF": "RJ",
+        "country": "Brasil"
+      },
+      "location": { "lat": -23.0123, "lon": -43.1234 },
+      "amenities": ["praia", "piscina", "wifi"],
+      "price": { "amount": 1274.00, "currency": "BRL" },
+      "images": [
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/202593987.jpg?k=fb8fb14c093c053777301553ec242f04e21fad15b56da267d1e3ff21749ff46a&o=",
+        "https://cf.bstatic.com/xdata/images/hotel/max500/184364388.jpg?k=ba08150394d09fd4eda776274e6e5af1dbf4f4b1891b46618aa9ea77e18e22d8&o=",
+        "https://cf.bstatic.com/xdata/images/hotel/max300/633623776.jpg?k=0b85f5abbf11cda5225dd7d435bf0bf2ad10400c4313156873ac3fe2d516ce06&o=",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/42865925.jpg?k=4e3ec5c37ac66ce92947032cf5349a9203257a35f6fed7f39e560fafc9791a24&o=",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/18959720.jpg?k=167c01af4b45b9586de2f8a698c64bc00182880bdf7d2b518e156f2edb043730&o="
+      ],
+      "availability": { "rooms": 5, "checkin": "2025-10-01", "checkout": "2025-10-02" },
+      "slogan": "Receba tratamento de celebridade com serviço de primeira classe em Miramar By Windsor Copacabana",
+      "description": "Situado em frente à famosa Praia de Copacabana, o Miramar By Windsor Copacabana dispõe de uma piscina em granito verde e academia moderna. Este hotel design aceita animais de estimação e oferece serviço de mordomo, além de WiFi gratuito. Você pode começar o dia admirando a bela vista da praia, enquanto desfruta do farto café da manhã. Decorados em tons de cinza, todos os quartos possuem ar-condicionado, TV a cabo de tela plana, cofre e frigobar. O banheiro privativo inclui amenidades de banho e roupão. Você pode encontrar várias lojas, mercearias, restaurantes, bares e casas noturnas nas proximidades do Miramar by Windsor. Para sua comodidade, o serviço de praia está disponível e inclui toalhas, cadeiras e guarda-sóis. Você também pode tomar um drinque no bar da cobertura ou desfrutar do restaurante do hotel. O Forte de Copacabana fica a 700 metros do Miramar Hotel, e o Estádio da Lagoa está a 3,8 km. Já o Aeroporto Santos Dumont fica a 1,7 km da propriedade, enquanto o Aeroporto Internacional do Galeão está a 25 km.",
+      "review": {"desc": "Excelente", "rating": "9.0"}
+    },
+    {
+      "id": "3",
+      "name": "Town.Co Housi by My Way",
+      "address": {
+        "street": "Rua Senhor dos Passos",
+        "number": "154",
+        "neighboorhood": "Centro",
+        "city": "Porto Alegre",
+        "UF": "RS",
+        "country": "Brasil"
+      },
+      "location": { "lat": -23.0123, "lon": -43.1234 },
+      "amenities": ["praia", "piscina", "wifi"],
+      "price": { "amount": 210.00, "currency": "BRL" },
+      "images": [
+        "https://cf.bstatic.com/xdata/images/hotel/max300/477450760.jpg?k=971b2d0550b0dab77d49be24ba3e4ea174aac3cb6a5ae9a0f1fe018cc958ef42&o=",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/647381259.jpg?k=42c7994da1c3752e016577cc3b9c2734b1887048b8ee25bc9014c50da8b96e39&o=",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/715278666.jpg?k=c229661657433fa8f8e682e96943d6505f534f1006f290ea6d4f25232114740d&o=",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/715278679.jpg?k=7862920813c16a758124a1ad1d48ea9087fd9ce2799358213285f79ef284c708&o=",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/715278682.jpg?k=b8f178d12f888635478723a8ef4c353bc5a7d53f87eb2436e66bdeee437e10b5&o="
+      ],
+      "availability": { "rooms": 5, "checkin": "2025-10-01", "checkout": "2025-10-02" },
+      "slogan": "Descrição:",
+      "description": "Localizado no centro histórico de Porto Alegre, este edifício fica perto de lojas, museus e do centro financeiro. A propriedade fornece um terraço na cobertura e quartos espaçosos com uma decoração moderna e Wi-Fi grátis. Além disso, o Estádio Beira Rio fica a 5 km. As acomodações do TownCo Housi by My Way dispõem de janelas com isolamento acústico, ar-condicionado e área de estar. As comodidades incluem geladeira e Smart TV. Já o banheiro privativo inclui um chuveiro. Devido à sua localização central, a propriedade oferece acesso fácil a outras partes da cidade. O Hospital Santa Casa fica a 250 metros, o Lago Guaíba fica a apenas 3 quarteirões e a Estação de Metrô Mercado fica a cerca de 700 metros do TownCo Housi by My Way. O Aeroporto Internacional Salgado Filho fica a 8 km.",
+      "review": {"desc": "Muito Bom", "rating": "8.7"}
+    },
+    {
+      "id": "4",
+      "name": "Marambaia Hotel e Convenções",
+      "address": {
+        "street": "Av. Atlântica",
+        "number": "300",
+        "neighboorhood": "Centro",
+        "city": "Balneário Camboriú",
+        "UF": "SC",
+        "country": "Brasil"
+      },
+      "location": { "lat": -23.0123, "lon": -43.1234 },
+      "amenities": ["praia", "piscina", "wifi"],
+      "price": { "amount": 520.00, "currency": "BRL" },
+      "images": [
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/662119364.jpg?k=18ffeeb4a56e3b02590e02f090b7f23d98910c054257abbbbcea5125b610335c&o=",
+        "https://cf.bstatic.com/xdata/images/hotel/max300/662154089.jpg?k=7ebee111f5ccfda90b1162d73a203163b919b4307cf7c81ce5d456954fecc734&o=",
+        "https://cf.bstatic.com/xdata/images/hotel/max500/484642733.jpg?k=3e3e4ce75ea08d8b08ae17d52a522bc6164a1f29606c32b17d3f06e18dbc03f7&o=",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/388813825.jpg?k=580eaec1796cfc571642ac88ef0dc4479086e7ca713c01a8e2bb1582bfb9a6d0&o=",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/487171115.jpg?k=05a7cd67f01dfe2db94f3b48772d7d4db3c6b2cf11f7792cd9a9afdb5ef04213&o="
+      ],
+      "availability": { "rooms": 5, "checkin": "2025-10-01", "checkout": "2025-10-02" },
+      "slogan": "Descrição:",
+      "description": "Localizado em Balneário Camboriú, Santa Catarina, a apenas 30 passos da praia local e a 3 minutos a pé da Roda Gigante FG, o Marambaia Hotel e Convenções dispõe de piscina ao ar livre aberta o ano todo, piscina infantil e piscina coberta. A propriedade oferece estacionamento particular por um custo adicional. Todos os quartos possuem ar-condicionado, frigobar, cofre, TV a cabo e banheiro privativo com secador de cabelo e produtos de banho grátis. O Marambaia Hotel e Convenções oferece Wi-Fi gratuito de alta velocidade em toda a propriedade. Você pode desfrutar de um salão de jogos, um salão infantil, um espaço aeróbico agradável e um restaurante e bar aberto até as 23h todos os dias. A propriedade possui salas para convenções no último andar do anexo do hotel, com vista panorâmica do mar. O hotel também dispõe de uma estação de carregamento gratuita para veículos elétricos. O hotel completa 60 anos este ano, sendo o segundo hotel mais antigo do Balneário com uma estrutura 100% renovada, mantendo as memórias dos milhares de hóspedes que já viveram a experiência Marambaia. O Marambaia Hotel e Convenções está localizado a 700 metros da Roda Gigante FG e 7 km do Navio Pirata, do Aquário Oceânico e do Parque Unipraias. Já o Aeroporto Internacional de Navegantes - Ministro Victor Konder e o Beto Carrero World ficam a 40 km da propriedade.",
+      "review": {"desc": "Muito Bom", "rating": "8.1"}
+    },
+    {
+      "id": "5",
+      "name": "Holiday Inn Fortaleza by IHG",
+      "address": {
+        "street": "Av. Historiador Raimundo Girao",
+        "number": "800",
+        "neighboorhood": "Meireles",
+        "city": "Fortaleza",
+        "UF": "CE",
+        "country": "Brasil"
+      },
+      "location": { "lat": -23.0123, "lon": -43.1234 },
+      "amenities": ["praia", "piscina", "wifi"],
+      "price": { "amount": 320.00, "currency": "BRL" },
+      "images": [
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/244177286.jpg?k=f3199bba435869b6c97ad8e41e50b579a1a239248e18d9a5e77e13e7803ebe42&o=",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/416395559.jpg?k=d3a96ed5fee3aacbd3ceb6a87d576df1018863e18b2cdc6aea606154e509e5c7&o=",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/578554852.jpg?k=cdf0bc11e68ead291fbf1d115402322d1739214681d905b7ee6dce43d50911ae&o=",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/578555394.jpg?k=9642cea5c88a42fd484c6aea6d27553182e10c26a77343cbe47d8fd0388ca6c7&o=",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/273617631.jpg?k=8ccede45d0d20b21db3239543b4a0caa8930ad93bf1f0f7e92470b5d5d6b3658&o="
+      ],
+      "availability": { "rooms": 5, "checkin": "2025-10-01", "checkout": "2025-10-02" },
+      "slogan": "Descrição:",
+      "description": "Este hotel à beira-mar oferece atividades de lazer e quartos amplos, com internet e vista da Praia de Iracema. A propriedade dispõe de piscina com vista do mar, terraço ao ar livre e academia moderna. Os quartos do Holiday Inn Fortaleza têm ar-condicionado, cafeteira, TV a cabo e mesa de trabalho. No Holiday Inn, você pode desfrutar de massagens relaxantes. Além disso, as instalações incluem salão de jogos e Espaço Kids. O hotel serve café da manhã com cereais, frutas da estação e itens de confeitaria. Para sua comodidade, há 2 restaurantes e um bar do lobby, que oferece coquetéis clássicos. O serviço de quarto também está disponível. A propriedade está situada a 1 km do Centro Dragão do Mar de Arte e Cultura, do Museu de Arte Moderna e da Feira de Artesanato. Já o centro de Fortaleza fica a 3 km do hotel. O Holiday Inn está localizado a 15 km do Aeroporto Pinto Martins",
+      "review": {"desc": "Excelente", "rating": "9.0"}
+    },
+    {
+      "id": "6",
+      "name": "Aquaria Natal Hotel",
+      "address": {
+        "street": "Av. Erivan Franca",
+        "number": "152",
+        "neighboorhood": "Ponta Negra",
+        "city": "Natal",
+        "UF": "RN",
+        "country": "Brasil"
+      },
+      "location": { "lat": -23.0123, "lon": -43.1234 },
+      "amenities": ["praia", "piscina", "wifi"],
+      "price": { "amount": 500.00, "currency": "BRL" },
+      "images": [
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/268379627.jpg?k=edca01191219c5c64e2bf598a28c20752ea915bf7aa2c9b2386a8644e243984c&o=",
+        "https://cf.bstatic.com/xdata/images/hotel/max500/155842920.jpg?k=3214842ab0a5d90b0aeb42fb17737526fe1e0218b125332f671a26c36465d193&o=",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/19821574.jpg?k=1d0120830f1d711668021f29e213b5c8aad48ee945ff6a85d47fc592e9d6744d&o=",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/268379374.jpg?k=5caaabd7d42c63c18982e5de4d92a918d965801462c276348f9fbf84fb7b6ac9&o=",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/268379610.jpg?k=2820db8101ded07cc0a675bc75b0a6be9ddfeac9052c131fceafdfb171201f38&o="
+      ],
+      "availability": { "rooms": 5, "checkin": "2025-10-01", "checkout": "2025-10-02" },
+      "slogan": "Descrição:",
+      "description": "Dispondo de uma piscina ao ar livre e localizado à beira-mar na praia mais famosa de Natal, a Praia de Ponta Negra, o Aquaria Natal Hotel oferece acomodações modernas e suítes espaçosas com vista panorâmica e WiFi gratuito. As suítes confortáveis do Aquaria Hotel Natal dispõem de 1 ou 2 quartos e estão equipadas com ar-condicionado e varanda privativa com vista completa ou parcial do mar. Alguns quartos incluem uma banheira de hidromassagem privativa. Um buffet de café da manhã com frutas da estação e sucos é servido diariamente, bem como lanches regionais. Você também pode desfrutar de outras opções gastronômicas, restaurantes locais e bares a apenas 100 metros do hotel. O Morro do Careca fica a apenas 1 km e o Shopping do Artesanato está a 1,5 km do local. O Natal Aquaria Hotel fica a 50 km do Aeroporto Internacional de São Gonçalo do Amarante. O estacionamento é gratuito.",
+      "review": {"desc": "Excelente", "rating": "8.9"}
+    },
+    {
+      "id": "7",
+      "name": "Laguna Praia Hotel",
+      "address": {
+        "street": "Av. Almirante Tamandaré",
+        "number": "716",
+        "neighboorhood": "Tambaú",
+        "city": "João Pessoa",
+        "UF": "PB",
+        "country": "Brasil"
+      },
+      "location": { "lat": -23.0123, "lon": -43.1234 },
+      "amenities": ["praia", "piscina", "wifi"],
+      "price": { "amount": 450.00, "currency": "BRL" },
+      "images": [
+        "https://cf.bstatic.com/xdata/images/hotel/max500/31951289.jpg?k=d9b6f1e7b57b6908f3328d1fc5916677f3d9ff36473591ddfb4b80e12b4b0b92&o=",
+        "https://cf.bstatic.com/xdata/images/hotel/max500/502886844.jpg?k=b437c078ae172f6192718165c30e6bccdf55473afe5194703a53e72579c308c7&o=",
+        "https://cf.bstatic.com/xdata/images/hotel/max300/31952405.jpg?k=b02cd243d9e6127c164be27859400d4f412a4e71c1250513319ee36e242eb717&o=",
+        "https://cf.bstatic.com/xdata/images/hotel/max300/31950158.jpg?k=31aaa42bf8b18d6b05fedecf34969438411fe6557ba013987537a2feb5741263&o=",
+        "https://cf.bstatic.com/xdata/images/hotel/max300/31951302.jpg?k=8d03b741850f5c8d485ec6f960e0d39b2df1225121c7673e31a0d5afe8c57dc4&o="
+      ],
+      "availability": { "rooms": 5, "checkin": "2025-10-01", "checkout": "2025-10-02" },
+      "slogan": "Descrição:",
+      "description": "O Laguna Praia Hotel, com vista deslumbrante do mar, possui uma localização ideal em frente à Praia de Tambaú. O Wi-Fi grátis está à sua disposição em todas as áreas. Os quartos do Laguna Hotel são modernos, bem iluminados e incluem varanda, TV a cabo, frigobar e ar-condicionado. No restaurante, você pode desfrutar de frutos do mar e outras especialidades locais. Além disso, você pode saborear um buffet de café da manhã diário, com uma variedade de itens da estação e uma seleção de iguarias regionais. Você pode também relaxar na piscina de frente para o mar com bebidas e coquetéis especiais do bar da cobertura. O Hotel Laguna Praia fica a 1 km da Praia de Cabo Branco e a 6 km da Ponta do Seixas. A propriedade está situada a 25 km do Aeroporto Presidente Castro Pinto e a 7 km do centro de João Pessoa. A famosa Praia do Jacaré fica a 13 km.",
+      "review": {"desc": "Excelente", "rating": "9.0"}
+    },
+    {
+      "id": "8",
+      "name": "Hotel Bahia do Sol",
+      "address": {
+        "street": "Av. Sete de Setembro",
+        "number": "2009",
+        "neighboorhood": "Vítoria",
+        "city": "Salvador",
+        "UF": "BA",
+        "country": "Brasil"
+      },
+      "location": { "lat": -23.0123, "lon": -43.1234 },
+      "amenities": ["Wifi", "Praia", "Piscina", "Garagem", "Terraço"],
+      "price": { "amount": 400.00, "currency": "BRL" },
+      "images": [
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/259429019.jpg?k=dc953aaa9e935b963031517fbbb89fb2ad6b67a4086fac658425b9ce5f4848e0&o=",
+        "https://cf.bstatic.com/xdata/images/hotel/max500/259430538.jpg?k=9ddb992876cf34692dd2b16a102f57db3ba86c53c474853891de1abbe66317e6&o=",
+        "https://cf.bstatic.com/xdata/images/hotel/max500/234700738.jpg?k=6e124205f8f7062e4267205d21f76187619b5888a487da488660339a3bcfab5b&o=",
+        "https://cf.bstatic.com/xdata/images/hotel/max300/259430176.jpg?k=ba3368f4b9fcc1a46da8ad6db27160ab67311f859878247527572b23e0a4f6bd&o=",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/259433745.jpg?k=c64c3d9a02686fbf724387fe1dddd7b34c6d65842ee2681de596fcffc7fb23df&o="
+      ],
+      "availability": { "rooms": 5, "checkin": "2025-10-01", "checkout": "2025-10-02" },
+      "slogan": "Descrição:",
+      "description": "Localizado a 1,5 km da praia do Porto da Barra, o Hotel Bahia do Sol fica em uma região privilegiada no bairro de Vitória, em Salvador. A propriedade dispõe de quartos com ar-condicionado e Wi-Fi gratuito e fica 2 km do Pelourinho, no centro histórico de Salvador. Além disso, este hotel 3 estrelas oferece lounge compartilhado, quartos com ar-condicionado, Wi-Fi gratuito e banheiro privativo, recepção 24 horas, serviço de quarto e depósito para bagagem. Todos os espaçosos quartos do Hotel Bahia do Sol incluem banheiro privativo, frigobar e TV de tela plana. Muitas unidades apresentam uma vista maravilhosa do mar. Para sua comodidade, um buffet de café da manhã é servido diariamente no Hotel Bahia do Sol. Este hotel fica a 4 km da Arena Fonte Nova e a 32 km do Aeroporto Internacional Deputado Luis Eduardo Magalhães. Durante sua estadia, você poderá explorar museus e teatros interessantes no Corredor da Vitória ou aproveitar um dia relaxando nas belas praias de Salvador.",
+      "review": {"desc": "Muito Bom", "rating": "8.7"}
+    },
+    {
+      "id": "9",
+      "name": "Pousada Polymar",
+      "address": {
+        "street": "AL 101-Norte, KM 139",
+        "number": "S/N",
+        "neighboorhood": "Praia de Peroba",
+        "city": "Maragogi",
+        "UF": "SE",
+        "country": "Brasil"
+      },
+      "location": { "lat": -23.0123, "lon": -43.1234 },
+      "amenities": ["praia", "piscina", "wifi"],
+      "price": { "amount": 560.00, "currency": "BRL" },
+      "images": [
+        "https://cf.bstatic.com/xdata/images/hotel/max500/471100996.jpg?k=98db9612f093f3681256e89544d51fe77893864ca4d0c514c63b05985155fad7&o=",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/655782271.jpg?k=3431a394874e6a4b1aed93d3239ddc70d7639dcd5dda62e9fce3aaa871005e5c&o=",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/264060047.jpg?k=4781215b10d51c8009f24345bf1db97d50226cbd76e26324ffe4d50f02ae88f8&o=",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/349715965.jpg?k=292c462d9c62f775a674fe6fa19b901db95b15bae23d1caa32649d970ccdfd0a&o=",
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/471101004.jpg?k=c822b16885fa5c786fbfa12fc7719accde207ee17c8083eb01507415566c0409&o="
+      ],
+      "availability": { "rooms": 5, "checkin": "2025-10-01", "checkout": "2025-10-02" },
+      "slogan": "Descrição:",
+      "description": "Pousada Polymar fornece acomodação com piscina ao ar livre, estacionamento privativo grátis, jardim e terraço em Maragogi. Praia de Peroba fica a poucos passos de distância. As comodidades desta acomodação incluem serviço de quarto e um balcão de turismo, além de Wi-Fi grátis em toda a propriedade. Você poderá saborear pratos da culinária americana no restaurante ou poderá tomar um drink no bar. Nesta pousada, todos os quartos possuem ar-condicionado, mesa de trabalho, TV de tela plana, banheiro privativo, roupa de cama, toalhas e varanda com vista para o jardim. Os quartos incluem guarda-roupa. Em Pousada Polymar, você pode tomar um café da manhã em estilo buffet. Pousada Polymar conta com parquinho infantil. Pousada Polymar fica a 10 km de Piscinas Naturais Galés de Maragogi e a 27 km de Reserva Biológica do Saltinho. O Aeroporto Internacional dos Guararapes - Recife fica a 112 km de distância e a acomodação oferece serviço de transfer (aeroporto) a um custo adicional.",
+      "review": {"desc": "Excelente", "rating": "9.4"}
+    },
+    {
+      "id": "10",
+      "name": "Vitoria Regia Praia Hotel",
+      "address": {
+        "street": "Rua das Azaleias",
+        "number": "14",
+        "neighboorhood": "Praia de Taperapuã",
+        "city": "Porto Seguro",
+        "UF": "BA",
+        "country": "Brasil"
+      },
+      "location": { "lat": -23.0123, "lon": -43.1234 },
+      "amenities": ["praia", "piscina", "wifi"],
+      "price": { "amount": 500.00, "currency": "BRL" },
+      "images": [
+        "https://cf.bstatic.com/xdata/images/hotel/max1024x768/290265831.jpg?k=fc3a9a59bd0bad297ca38f0a45a49f016dce612b53b8a52a145917ced7dd2273&o=",
+        "https://cf.bstatic.com/xdata/images/hotel/max500/112815524.jpg?k=bed0d4c796703ccc402a444dcbdf62250fe1743b114f93c20ae5e74118c12837&o=",
+        "https://cf.bstatic.com/xdata/images/hotel/max300/112800717.jpg?k=5f425cfb673fdeb4e0531a6b9ceb83dc6acb170ad021807b29e4d76f919a5ddf&o=",
+        "https://cf.bstatic.com/xdata/images/hotel/max300/290265849.jpg?k=78c8fedfc03bb99601b944790d088d3b2032611698daee53db264d3aaba6f2b9&o=",
+        "https://cf.bstatic.com/xdata/images/hotel/max500/112815526.jpg?k=a8b39c9795a91bd017c2523666ae546ac543e4f72671fba0762a4fcb64205620&o="
+      ],
+      "availability": { "rooms": 5, "checkin": "2025-10-01", "checkout": "2025-10-02" },
+      "slogan": "Descrição:",
+      "description": "Dispondo de piscinas, o Vitoria Régia Hotel oferece acomodações espaçosas, a apenas 600 m da Praia de Taperapuan. A propriedade conta com WiFi e estacionamento privativo, ambos gratuitos. Além disso, você pode saborear o buffet de café da manhã. Os apartamentos do Vitória Régia são bem iluminados e espaçosos. Todas as acomodações possuem ar-condicionado e TV via satélite. Alguns quartos dispõem de varanda privativa, área para refeições e sala de estar. Você pode saborear o buffet de café da manhã no restaurante do hotel ou por meio do serviço de quarto. A propriedade também dispõe de sauna, academia e um parquinho infantil. O Vitória Régia Apart Hotel fica a 600 m da Avenida Beira Mar, que oferece opções gastronômicas e de compras. Você estará a 8,5 km da cidade e do aeroporto de Porto Seguro. O Terminal Rodoviário da cidade está situado a 10 minutos de carro do hotel.",
+      "review": {"desc": "Muito Bom", "rating": "8.7"}
+    }
+  ]
+}

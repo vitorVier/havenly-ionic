@@ -1,0 +1,58 @@
+/* Montserrat + Lato */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+:root {
+  /* Brand Colors */
+  --primary-color: #1FB4A5;
+  --secondary-color: #FFD54F;
+  --tertiary-color: #FF6F61;
+
+  /* Contrast Colors */
+  --contrast-primary: #2B2B2B;
+  --contrast-secondary: #FDFBF7;
+
+  /* Function Colors */
+  --function-primary: #34C759;
+  --function-secondary: #007AFF;
+  --function-tertiary: #B28DFF;
+  
+  /* Feedback Colors */
+  --feedback-primary: #A7F3D0;
+  --feedback-secondary: #5B8DEF;
+  --feedback-tertiary: #E63946;
+  --feedback-fourth: #F4A261;
+
+
+  /* Tipography */
+  --font-primary: 'Montserrat', sans-serif;
+  --font-secondary: 'Lato', sans-serif;
+
+  --font-size-h1: 2.5rem;
+  --font-size-h2: 2rem;
+  --font-size-h3: 1.5rem;
+  --font-size-h4: 1.1rem;
+  --font-size-h5: 1rem;
+  --font-size-a:  0.75rem;
+  --font-size-p: 0.75rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-primary);
+}
+
+/* @theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+} */
