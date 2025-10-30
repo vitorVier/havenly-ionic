@@ -40,12 +40,6 @@ export function Header() {
                 </button>
 
                 <nav className={navOpen ? "nav-mobile open" : "nav-mobile"}>
-                    <select name="lang" id="lang">
-                        <option value="0">BRL</option>
-                        <option value="1">ENG</option>
-                        <option value="2">SPN</option>
-                    </select>
-                    
                     <Link to="/accommodations" onClick={() => setNavOpen(!navOpen)}>Hoteis</Link>
                     <Link to="/reservations" onClick={() => setNavOpen(!navOpen)}>Minhas Reservas</Link>
                     <Link to="/profile" onClick={() => setNavOpen(!navOpen)}>Minha Conta</Link>

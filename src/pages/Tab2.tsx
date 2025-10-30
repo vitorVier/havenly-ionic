@@ -148,11 +148,9 @@ const Tab2: React.FC = () => {
   return (
     <IonPage>
       <IonHeader>
-        <IonToolbar>
-          <Header />
-        </IonToolbar>
+        <Header />
       </IonHeader>
-
+      
       <IonContent fullscreen>
         <div className="accommodations-container">
           {/* Barra de pesquisa */}

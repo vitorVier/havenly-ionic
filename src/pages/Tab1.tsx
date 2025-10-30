@@ -12,11 +12,9 @@ const Tab1: React.FC = () => {
   return (
     <IonPage>
       <IonHeader>
-        <IonToolbar>
-          <Header />
-        </IonToolbar>
+        <Header />
       </IonHeader>
-
+      
       <IonContent fullscreen>
         <div className="home-container">
           <main>
