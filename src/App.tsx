@@ -32,6 +32,8 @@ import '@ionic/react/css/text-transformation.css';
 import '@ionic/react/css/flex-utils.css';
 import '@ionic/react/css/display.css';
 import Details from './pages/details';
+import ProfilePage from './pages/profile';
+import SecurityPage from './pages/security';
 
 setupIonicReact();
 
@@ -62,13 +64,19 @@ const App: React.FC = () => (
           </IonTabButton>
           <IonTabButton tab="tab3" href="/tab3">
             <IonIcon aria-hidden="true" icon={square} />
-            <IonLabel>Tab 3</IonLabel>
+            <IonLabel></IonLabel>
           </IonTabButton>
         </IonTabBar>
       </IonTabs>
 
       <Route exact path="/details/:id">
         <Details />
+      </Route>
+      <Route exact path="/profile">
+        <ProfilePage />
+      </Route>
+      <Route exact path="/security">
+        <SecurityPage />
       </Route>
     </IonReactRouter>
   </IonApp>
