@@ -1,0 +1,321 @@
+.accommodations-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  min-height: calc(100vh - 76px);
+  padding-bottom: 2rem;
+}
+
+/* Barra de pesquisa */
+.search-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  width: 89%;
+  margin: 20px 0 0 0;
+  padding: 1rem 2rem;
+  border-radius: 7px;
+  background: #fff;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.search-input {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex: 1;
+  border: 1px solid #ddd;
+  padding: 0.5rem;
+  border-radius: 7px;
+}
+
+.search-input input {
+  border: none;
+  outline: none;
+  flex: 1;
+  background: #FFF;
+}
+
+.search-btn {
+  background: var(--primary-color);
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.search-btn:hover {
+  filter: brightness(115%);
+}
+
+/* Layout */
+.content {
+  display: grid;
+  width: 95%;
+  grid-template-columns: 250px 1fr;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+/* Filtros */
+.filters {
+  max-height: 300px;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  background: #FFF;
+}
+
+.filters h2 {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.filters label {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.filter-price {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 75%;
+  margin: 1rem 0 0.5rem;
+  font-size: 0.9rem;
+}
+
+.filter-price input[type="range"] {
+  width: 100%;
+  cursor: pointer;
+}
+
+.price-output {
+  font-weight: bold;
+  color: var(--primary-color);
+  font-size: 1rem;
+}
+
+/* Cards */
+.hotels {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.hotel-card {
+  display: flex;
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.img-content {
+  max-height: 200px;
+}
+
+.hotel-card img {
+  width: 200px;
+  height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.hotel-info {
+  flex: 1;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hotel-info h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.25rem;
+}
+
+.location {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.perks {
+  margin: 0.5rem 0;
+  color: #444;
+  font-size: 0.85rem;
+}
+
+.hotel-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: auto;
+}
+
+.rating {
+  color: #2a9d8f;
+  font-weight: bold;
+}
+
+.rating-decimal {
+  padding: 5px 9px;
+  border-radius: 15px;
+  color: #FFF;
+  background: var(--primary-color);
+}
+
+.reviews {
+  font-size: 0.8rem;
+  margin-top: 8px;
+  padding-left: 3px;
+  color: #777;
+}
+
+.price {
+  text-align: right;
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: #999;
+  font-size: 0.85rem;
+}
+
+.new-price {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #000000;
+}
+
+.btn-book, .btn-filter {
+  margin: 5px 0;
+  padding: 0.6rem;
+  border: none;
+  border-radius: 4px;
+  color: #FFF;
+  font-weight: 600;
+  background: var(--primary-color);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-book:hover, .btn-filter:hover {
+  transform: scale(1.05);
+}
+
+.loading {
+  width: 100%;
+  text-align: center;
+}
+
+/* Telas grandes (1440px+) */
+@media (min-width: 1440px) {
+  .content {
+    width: 85%;
+    grid-template-columns: 300px 1fr;
+  }
+
+  .hotel-card .img-content {
+    width: 250px;
+  }
+}
+
+/* Telas médias (tablets landscape, 1024px–1439px) */
+@media (max-width: 1439px) {
+  .content {
+    grid-template-columns: 220px 1fr;
+  }
+
+  .hotel-card img {
+    width: 200px;
+  }
+}
+
+/* Tablets (768px–1023px) */
+@media (max-width: 1023px) {
+  .content {
+    grid-template-columns: 1fr;
+  }
+
+  .filters {
+    order: -1;
+    max-height: none;
+    margin-bottom: 1rem;
+  }
+
+  .hotel-card {
+    flex-direction: column;
+  }
+
+  .hotel-card img {
+    width: 100%;
+    height: 205px;
+  }
+}
+
+/* Smartphones grandes (600px–767px) */
+@media (max-width: 767px) {
+  .search-bar {
+    flex-direction: column;
+    gap: 0.75rem;
+    padding: 1rem;
+  }
+
+  .hotel-info h3 {
+    font-size: 1rem;
+  }
+
+  .new-price {
+    font-size: 1rem;
+  }
+}
+
+/* Smartphones médios (480px–599px) */
+@media (max-width: 599px) {
+  .content {
+    padding: 1rem;
+  }
+
+  .hotel-card img {
+    height: 180px;
+  }
+
+  .hotel-info {
+    padding: 0.75rem;
+  }
+
+  .search-btn {
+    width: 100%;
+  }
+}
+
+/* Smartphones pequenos (até 479px) */
+@media (max-width: 479px) {
+  .filters h2 {
+    font-size: 1rem;
+  }
+
+  .filters label {
+    font-size: 0.8rem;
+  }
+
+  .hotel-info h3 {
+    font-size: 0.95rem;
+  }
+
+  .perks {
+    font-size: 0.75rem;
+  }
+
+  .new-price {
+    font-size: 0.95rem;
+  }
+}

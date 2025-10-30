@@ -1,3 +1,6 @@
+// services/api.ts
+import type { Hotel } from '../types/hotel';
+
 // Configurações da API JSONBin.io
 const API_CONFIG = {
   binId: '68d3df3eae596e708ff9eb22',
@@ -5,13 +8,17 @@ const API_CONFIG = {
 };
 
 class JsonBinAPI {
+  private baseURL: string;
+  private binId: string;
+  private secretKey: string;
+
   constructor() {
     this.baseURL = 'https://api.jsonbin.io/v3/b';
     this.binId = API_CONFIG.binId;
     this.secretKey = API_CONFIG.secretKey;
   }
 
-  async fetchPropertyData() {
+  async fetchPropertyData(): Promise<{ hotels: Hotel[] } | null> {
     try {
       const response = await fetch(`${this.baseURL}/${this.binId}/latest`, {
         headers: {
