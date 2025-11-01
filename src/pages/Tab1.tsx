@@ -77,7 +77,7 @@ const Tab1: React.FC = () => {
                 </li>
               </ul>
 
-              <Link to="accommodations">
+              <Link to="accommodations" style={{width: '90%', margin: '0 auto 0 auto'}}>
                 <button className='search'>
                   BUSCAR HOSPEDAGEM
                 </button>
