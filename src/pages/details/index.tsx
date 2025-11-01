@@ -17,7 +17,7 @@ import { ReactNode } from "react";
 import { IonContent, IonHeader, IonPage } from '@ionic/react';
 import { Header } from '../../components/header';
 
-export default function Details() {
+export const Details: React.FC = () => {
   const { id } = useParams<{ id: string }>();
 
   const [hotel, setHotel] = useState<Hotel | null>(null);

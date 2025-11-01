@@ -31,9 +31,9 @@ import '@ionic/react/css/text-alignment.css';
 import '@ionic/react/css/text-transformation.css';
 import '@ionic/react/css/flex-utils.css';
 import '@ionic/react/css/display.css';
-import Details from './pages/details';
-import ProfilePage from './pages/profile';
-import SecurityPage from './pages/security';
+import { Details } from './pages/details';
+import { ProfilePage } from './pages/profile';
+import { SecurityPage } from './pages/security';
 
 setupIonicReact();
 
@@ -48,7 +48,7 @@ const App: React.FC = () => (
           <Route exact path="/accommodations">
             <Tab2 />
           </Route>
-          <Route path="/tab3">
+          <Route path="/reservations">
             <Tab3 />
           </Route>
         </IonRouterOutlet>
@@ -62,9 +62,9 @@ const App: React.FC = () => (
             <IonIcon aria-hidden="true" icon={ellipse} />
             <IonLabel>Accommodations</IonLabel>
           </IonTabButton>
-          <IonTabButton tab="tab3" href="/tab3">
+          <IonTabButton tab="tab3" href="/reservations">
             <IonIcon aria-hidden="true" icon={square} />
-            <IonLabel></IonLabel>
+            <IonLabel>Reservations</IonLabel>
           </IonTabButton>
         </IonTabBar>
       </IonTabs>

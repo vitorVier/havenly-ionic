@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 import { IonContent, IonHeader, IonPage } from '@ionic/react';
 import { Header } from '../../components/header';
 
-export default function ProfilePage() {
+export const ProfilePage: React.FC = () => {
 
   const [profileImage, setProfileImage] = useState<string | null>(null);
 

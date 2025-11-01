@@ -6,7 +6,7 @@ import { IonContent, IonHeader, IonPage } from '@ionic/react';
 import { Header } from '../../components/header';
 import { Link } from 'react-router-dom';
 
-export default function SecurityPage() {
+export const SecurityPage: React.FC = () => {
   return (
     <IonPage>
         <IonHeader>
