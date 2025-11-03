@@ -33,7 +33,7 @@ import '@ionic/react/css/flex-utils.css';
 import '@ionic/react/css/display.css';
 import { Details } from './pages/details';
 import { ProfilePage } from './pages/profile';
-import { SecurityPage } from './pages/security';
+import { SecurityPage } from './pages/security/security';
 
 setupIonicReact();
 
@@ -51,6 +51,16 @@ const App: React.FC = () => (
           <Route path="/reservations">
             <Tab3 />
           </Route>
+
+          <Route exact path="/details/:id">
+            <Details />
+          </Route>
+          <Route exact path="/profile">
+            <ProfilePage />
+          </Route>
+          <Route exact path="/security">
+            <SecurityPage />
+          </Route>
         </IonRouterOutlet>
 
         <IonTabBar slot="bottom">
@@ -60,24 +70,14 @@ const App: React.FC = () => (
           </IonTabButton>
           <IonTabButton tab="tab2" href="/accommodations">
             <IonIcon aria-hidden="true" icon={ellipse} />
-            <IonLabel>Accommodations</IonLabel>
+            <IonLabel>Hotéis</IonLabel>
           </IonTabButton>
           <IonTabButton tab="tab3" href="/reservations">
             <IonIcon aria-hidden="true" icon={square} />
-            <IonLabel>Reservations</IonLabel>
+            <IonLabel>Reservas</IonLabel>
           </IonTabButton>
         </IonTabBar>
       </IonTabs>
-
-      <Route exact path="/details/:id">
-        <Details />
-      </Route>
-      <Route exact path="/profile">
-        <ProfilePage />
-      </Route>
-      <Route exact path="/security">
-        <SecurityPage />
-      </Route>
     </IonReactRouter>
   </IonApp>
 );

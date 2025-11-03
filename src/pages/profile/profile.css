@@ -3,7 +3,6 @@
   max-width: 1200px;
   margin: 0 auto;
   padding: 48px 32px 0 32px;
-  font-family: 'Montserrat', Arial, sans-serif;
 }
 
 .profile-tabs {
@@ -187,4 +186,26 @@
 .logout:hover {
   background: #F75C4C;
   color: #fff;
+}
+
+@media (max-width: 500px) {
+  .profile-container {
+    padding-top: 200px;
+    overflow: visible;
+  }
+}
+
+@media (max-width: 450px) {
+  .profile-container {
+    padding-top: 280px;
+    overflow: visible;
+    margin-bottom: 350px;
+  }
+}
+
+@media (max-width: 400px) {
+  .profile-container {
+    padding-top: 380px;
+    overflow: visible;
+  }
 }
