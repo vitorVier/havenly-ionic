@@ -163,7 +163,7 @@ export const Details: React.FC = () => {
                       <img
                         src={hotel.image}
                         alt="Imagem principal"
-                        width={600}
+                        width={300}
                         height={400}
                         style={{ objectFit: 'cover', width: '100%', height: '100%' }}
                       />
@@ -175,9 +175,9 @@ export const Details: React.FC = () => {
                           key={i}
                           src={img}
                           alt={`Imagem ${i}`}
-                          width={180}
+                          width={100}
                           height={120}
-                          style={{ objectFit: 'cover', width: '100%', height: '100%' }}
+                          style={{ objectFit: 'cover', width: '50%', height: '100%' }}
                         />
                       ))}
                     </div>
